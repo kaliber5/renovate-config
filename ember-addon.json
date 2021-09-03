@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "kaliber5/renovate-config:js-lib"
+  ]
+}

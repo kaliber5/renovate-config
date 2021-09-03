@@ -1,0 +1,27 @@
+{
+  "extends": [
+    ":automergePatch",
+    ":automergeLinters",
+    ":automergeTesters",
+    ":automergeTypes",
+    ":maintainLockFilesWeekly",
+    ":semanticCommitsDisabled"
+  ],
+  "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "matchCurrentVersion": ">= 1.0.0",
+      "updateTypes": [
+        "minor"
+      ],
+      "automerge": true
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "updateTypes": [
+        "minor"
+      ],
+      "automerge": true
+    }
+  ]
+}
