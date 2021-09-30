@@ -35,5 +35,6 @@
       }
     }
   ],
-  "npmrc": "@kaliber5:registry=https://npm.pkg.github.com/"
+  "npmrc": "@kaliber5:registry=https://npm.pkg.github.com/",
+  "postUpdateOptions": ["yarnDedupeHighest"]
 }
