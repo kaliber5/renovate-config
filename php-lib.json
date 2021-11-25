@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "kaliber5/renovate-config",
+    ":pinOnlyDevDependencies"
+  ]
+}
