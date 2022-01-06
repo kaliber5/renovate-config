@@ -1,5 +1,11 @@
 {
   "extends": [
     "kaliber5/renovate-config:js-app"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["ember-embedded-snippet"],
+      "automerge": false
+    }
   ]
 }
