@@ -26,15 +26,5 @@
       "automerge": true
     }
   ],
-  "hostRules": [
-    {
-      "matchHost": "https://npm.pkg.github.com/",
-      "hostType": "npm",
-      "encrypted": {
-        "token": "wcFMA/xDdHCJBTolAQ//dwu53wq3Oir/MT7O2KrfOVGLuamMcq4hgzFvlIYaHPV5YgxeyoVp+Qfy/Q2Ni5VxWA+IfzbTnUgPhHove0oho95JhyNKm3FetVbteZq4eOMo7JoLGcnjsprTr6BWPwQdkeWjPBbUsWWQEZmY05CZ1QxjttCTSlWM/QBXv8+jgSiO7lMDbFa2lTcZoJxomeINCVMD98DbT2r97P4paW5DH9n2TvZeTsuEWO+3h/+8eFgRPGehWr5mlNx7yYlrppCWeR7m3l0LEvLxUiJN+SesOt6GKO7ZmSdBmT/co5k3Zh5iANXmhUrZ7RKJ71HbIfK2ygXQcvnFYRZ5/6lLzeaGIlqZCbfbePRp2EF/ApZgSpiVhPWRKAfcSkZDMNDiIFzBUqDZCRyp11St6VdtLhiAoCKArIzSzeDE8B+9UY6DZwT8/mP844Kj6rclGvzonDLRMh7Ji+rdpg+E6FSlxbrcBW/+wNpjkvMwmUVSX8xH+zBWwO79GTGBrDS/ilJzm0utM1JFRcJ9iZnLPdNN+OdrQUpw9ouKkn2elhlM9q1E0eu7cXvLUDOlXv69tVYWmvF/AKY1Zn6iQWAmIYnkeTuPzPdlINxLXQ5izJMevVrbmaSWenozkIuEQwJrPxMtmRU8Z5JNvT1srk5fLI7cn/u/2Qi9tLOQEByaCdMlX33M/FXSdwHFbXrbiU+fw9nk2wVslFNnIbJ+JzZ14F7sqGhDV55RYU+X2n+lPgk6ipxPYCy1rQINooBTa3D3W9RwrZAFO0QW95PzVThldpd+xHOF7eW7G7oVhuRIDboeaMCRb+ro0/BW8+liyVHcwgvDAZR5kngji+OrGJRS"
-      }
-    }
-  ],
-  "npmrc": "@kaliber5:registry=https://npm.pkg.github.com/",
   "postUpdateOptions": ["yarnDedupeHighest"]
 }
